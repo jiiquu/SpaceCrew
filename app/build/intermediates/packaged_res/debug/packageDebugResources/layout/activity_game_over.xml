@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/bg_dark">
+
+    <TextView
+        android:id="@+id/tvGameStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[ MISSION FAILED ]"
+        android:textColor="@color/threat_red"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvScoreSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINAL SCORE: 0000"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turns: 0\nThreats: 0\nDamage: 0"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnRestart"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW COMMAND"
+        android:fontFamily="monospace"
+        android:backgroundTint="@color/text_primary"
+        android:textColor="@color/bg_dark"/>
+
+</LinearLayout>

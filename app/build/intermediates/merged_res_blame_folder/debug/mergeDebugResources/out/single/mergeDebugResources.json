@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.spacecrewgame.app-debug-31:/layout_activity_ship_phase.xml.flat",
+        "source": "com.example.spacecrewgame.app-main-33:/layout/activity_ship_phase.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_activity_game_over.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/activity_game_over.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_activity_combat.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/activity_combat.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_spinner_item.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_item_combat_action.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/item_combat_action.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_item_crew_member.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/item_crew_member.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_dialog_recruit.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/dialog_recruit.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_activity_ship_phase.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/activity_ship_phase.xml"
+    },
+    {
+        "merged": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-debug-31:/layout_dialog_crew_selection.xml.flat",
+        "source": "/Users/joaquinmondragon/.gradle/daemon/8.13/com.example.spacecrewgame.app-main-33:/layout/dialog_crew_selection.xml"
+    }
+]

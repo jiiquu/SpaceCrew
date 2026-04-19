@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Space Crew</string>
+    <string name="subtitle">A ship management game</string>
+
+    <!-- Ship Phase -->
+    <string name="btn_new_game">New Game</string>
+    <string name="btn_recruit">Recruit</string>
+    <string name="btn_train">Train</string>
+    <string name="btn_medbay">Medbay</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_patrol">Patrol (End Turn)</string>
+    <string name="btn_deploy">Deploy</string>
+
+    <string name="status_header">Turn: %1$d / %2$d \nActions: %3$d / %4$d</string>
+    <string name="current_score_label">SCORE: %1$04d</string>
+    <string name="threat_announcement">⚠ THREAT: %1$s [HP:%2$d ATK:%3$d]</string>
+    <string name="crew_full_msg">Crew quarters are full.</string>
+    <string name="confirm_disband_title">Confirm Disband</string>
+    <string name="confirm_disband_msg">Are you sure you want to dismiss %1$s? This is permanent.</string>
+
+    <!-- Combat -->
+    <string name="btn_resolve">Resolve Round</string>
+    <string name="btn_return">Return to Ship</string>
+    <string name="combat_resolved_header">COMBAT RESOLVED</string>
+    <string name="cooldown_msg">COOLDOWN: %1$d rounds</string>
+    <string name="action_wait_msg">%1$s has no available actions and waits.</string>
+    <string name="crew_status_display">%1$s HP:%2$d</string>
+    <string name="mission_failed_log">\n\nMISSION FAILED — crew lost.</string>
+    <string name="threat_neutralized_log">\n\nThreat neutralized!</string>
+
+    <!-- Action Specific Logs -->
+    <string name="log_negotiate_success">%1$s negotiates a cease-fire — threat stands down!</string>
+    <string name="log_negotiate_fail">%1$s attempted to negotiate — the threat presses on.</string>
+    <string name="log_negotiate_impossible">%1$s attempts to negotiate, but %2$s cannot be reasoned with!</string>
+    <string name="log_intimidate_stun">%1$s projects authority. %2$s hesitates!</string>
+    <string name="log_intimidate_fail">%1$s failed to intimidate %2$s.</string>
+    <string name="log_intimidate_impossible">%1$s projects authority, but %2$s is unaffected!</string>
+    <string name="log_tactical_coordination">%1$s provides guidance. Ally\'s next attack deals +%2$d damage!</string>
+    <string name="log_tactical_impossible">It is hard to coordinate against %1$s!</string>
+
+    <string name="log_hack_success">%1$s infiltrates enemy systems for %2$d damage.</string>
+    <string name="log_hack_impossible">%1$s attempts to hack, but %2$s has no systems to infiltrate!</string>
+    <string name="log_field_medicine">%1$s patches up %2$s for %3$d HP.</string>
+    <string name="log_pattern_analysis">%1$s identifies structural weaknesses in %2$s. %3$s gains a +%4$d damage bonus!</string>
+    <string name="log_pattern_impossible">%1$s attempts to analyze patterns, but %2$s follows no detectable physical patterns!</string>
+
+    <string name="log_evasive_action">%1$s takes evasive action — incoming damage reduced by %2$d.</string>
+    <string name="log_evasive_impossible">%1$s attempts to evade, but it has no effect on %2$s!</string>
+    <string name="log_ramming_faction">%1$s catches the faction vessel by surprise with a high-speed ramming maneuver, inflicting %2$d damage!</string>
+    <string name="log_ramming_pirate">%1$s outmaneuvers the pirate raider in a ramming strike for %2$d damage.</string>
+    <string name="log_ramming_debris">%1$s rams into the debris field! The ship takes heavy structural damage. %1$s and %2$s take 8 damage.</string>
+    <string name="log_ramming_fail">%1$s attempts to close in, but %2$s is not there!</string>
+    <string name="log_high_g_debris">%1$s uses high-G maneuvers to shake off the debris! Threat neutralized.</string>
+    <string name="log_high_g_boarding">%1$s executes extreme maneuvers, tossing the boarding party around! Threat neutralized.</string>
+    <string name="log_high_g_fail">%1$s attempts extreme maneuvers, but the %2$s persists.</string>
+    <string name="log_high_g_impossible">%1$s executes a high-G turn, but it has no tactical effect against %2$s.</string>
+
+    <string name="log_weapon_pirate">%1$s unleashes heavy weapon fire on the pirate ship for %2$d massive damage!</string>
+    <string name="log_weapon_standard">%1$s targets the %2$s for %3$d damage.</string>
+    <string name="log_weapon_impossible">%1$s\'s guns are useless against %2$s.</string>
+    <string name="log_fortify_boarding">%1$s creates a kill zone! Defense vs boarding maximized at %2$d.</string>
+    <string name="log_fortify_standard">%1$s secures the deck, reducing incoming damage by %2$d.</string>
+    <string name="log_fortify_impossible">%1$s attempts to fortify, but it offers no protection against %2$s.</string>
+    <string name="log_close_combat_boarding">%1$s engages in brutal close-quarters combat for %2$d damage, but takes %3$d in return!</string>
+    <string name="log_close_combat_hazard">%1$s firefights the hazard for %2$d damage, taking %3$d damage in the action.</string>
+    <string name="log_close_combat_fail">%1$s charges, but has nothing to fight at close quarters against %2$s.</string>
+
+    <string name="log_shields_standard">%1$s redirects power to shields — crew protected by %2$d.</string>
+    <string name="log_shields_impossible">%1$s tries to boost shields, but they are useless against %2$s!</string>
+    <string name="log_overload_standard">%1$s overloads ship systems for %2$d damage.</string>
+    <string name="log_overload_impossible">%1$s tries to overload systems, but it has no effect on %2$s!</string>
+    <string name="log_isolate_boarding">%1$s seals the bulkheads. The boarding party is trapped and skips their turn!</string>
+    <string name="log_isolate_hazard_success">%1$s successfully isolates the hazard, neutralizing it!</string>
+    <string name="log_isolate_hazard_fail">%1$s fails to isolate the hazard.</string>
+    <string name="log_isolate_impossible">%1$s attempts to isolate systems, but it has no effect on %2$s.</string>
+
+    <!-- Action Descriptions -->
+    <string name="desc_negotiate_faction">High chance to end conflict. [1 Round Cooldown]</string>
+    <string name="desc_negotiate_pirate">Moderate chance vs Pirates. [1 Round Cooldown]</string>
+    <string name="desc_negotiate_none">Ineffective vs %1$s. [1 Round Cooldown]</string>
+    <string name="desc_intimidate_human">Can stun the target for 1 round. [2 Round Cooldown]</string>
+    <string name="desc_intimidate_none">No effect on %1$s. [2 Round Cooldown]</string>
+    <string name="desc_tactical_human">Grants massive damage bonus to Ally.</string>
+    <string name="desc_tactical_none">Ineffective vs %1$s.</string>
+
+    <string name="desc_hack_human">Standard damage vs electronic systems. [1 Round Cooldown]</string>
+    <string name="desc_hack_none">No systems to hack on %1$s. [1 Round Cooldown]</string>
+    <string name="desc_field_medicine">Restores HP to the ally. [1 Round Cooldown]</string>
+    <string name="desc_pattern_analysis">Provides a damage bonus to ally\'s next action. [1 Round Cooldown]</string>
+    <string name="desc_pattern_none">Ineffective vs %1$s. [1 Round Cooldown]</string>
+
+    <string name="desc_evasive_standard">Reduces damage from %1$s. [1 Round Cooldown]</string>
+    <string name="desc_evasive_none">Ineffective vs %1$s. [1 Round Cooldown]</string>
+    <string name="desc_ramming_faction">Massive damage vs Factions. [2 Round Cooldown]</string>
+    <string name="desc_ramming_pirate">High damage vs Pirates. [2 Round Cooldown]</string>
+    <string name="desc_ramming_debris">Unwise! Damages own crew. [2 Round Cooldown]</string>
+    <string name="desc_ramming_none">Cannot strike this target. [2 Round Cooldown]</string>
+    <string name="desc_high_g_debris">Can instantly clear debris. [2 Round Cooldown]</string>
+    <string name="desc_high_g_boarding">Can neutralize boarding parties. [2 Round Cooldown]</string>
+    <string name="desc_high_g_none">No tactical effect vs %1$s. [2 Round Cooldown]</string>
+
+    <string name="desc_weapon_pirate">Very Effective vs Pirates. [1 Round Cooldown]</string>
+    <string name="desc_weapon_standard">Standard damage. [1 Round Cooldown]</string>
+    <string name="desc_weapon_none">Ineffective vs %1$s. [1 Round Cooldown]</string>
+    <string name="desc_fortify_boarding">Excellent protection vs Boarders. [2 Round Cooldown]</string>
+    <string name="desc_fortify_hazard">No protection against ship hazards. [2 Round Cooldown]</string>
+    <string name="desc_fortify_standard">General damage reduction. [2 Round Cooldown]</string>
+    <string name="desc_close_combat_boarding">Lethal vs Boarders. High Self-Damage. [1 Round Cooldown]</string>
+    <string name="desc_close_combat_hazard">Effective vs Hazards. Minor Self-Damage. [1 Round Cooldown]</string>
+    <string name="desc_close_combat_none">No melee target found. [1 Round Cooldown]</string>
+
+    <string name="desc_shields_none">Ineffective vs %1$s. [1 Round Cooldown]</string>
+    <string name="desc_shields_standard">Superior protection vs incoming fire. [1 Round Cooldown]</string>
+    <string name="desc_overload_none">No effect on %1$s [1 Round Cooldown]</string>
+    <string name="desc_overload_standard">Standard structural damage. [1 Round Cooldown]</string>
+    <string name="desc_isolate_boarding">Stuns intruders for 1 round. [1 Round Cooldown]</string>
+    <string name="desc_isolate_hazard">High chance to neutralize hazard. [1 Round Cooldown]</string>
+    <string name="desc_isolate_none">Limited use against external threats. [1 Round Cooldown]</string>
+
+    <!-- GameOver -->
+    <string name="mission_failed_title">[ MISSION FAILED ]</string>
+    <string name="mission_complete_title">[ MISSION COMPLETE ]</string>
+    <string name="final_score">FINAL COMMAND SCORE: %1$04d</string>
+    <string name="log_summary_header">>> LOG SUMMARY:</string>
+    <string name="stats_turns">TURNS SURVIVED: %1$d / %2$d</string>
+    <string name="stats_threats">THREATS CLEARED: %1$d</string>
+    <string name="stats_damage">TOTAL DMG TAKEN: %1$d</string>
+    <string name="stats_losses">CREW LOST: %1$d</string>
+
+    <!-- Dev / Selection -->
+    <string name="crew_selection_title">Select 2 Crew Members</string>
+    <string name="select_exactly_2">Select exactly 2 members.</string>
+</resources>
